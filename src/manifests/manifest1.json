@@ -1,0 +1,15 @@
+{
+    "creator": "John Doe",
+    "creationDate": "2024-05-14",
+    "description": "Edited using Photoshop 2024",
+    "rights": "Copyright © 2024 John Doe",
+    "software": "Photoshop 2024",
+    "history": [
+        {
+            "date": "2024-05-14",
+            "action": "Cropped",
+            "software": "Photoshop 2024"
+        }
+    ]
+}
+
