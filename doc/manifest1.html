@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manifest Details</title>
+</head>
+<body>
+    <h1>Manifest Details</h1>
+    <div id="manifestContent"></div>
+    <script>
+        fetch('../src/manifests/manifest1.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('manifestContent').innerText = JSON.stringify(data, null, 2);
+            });
+    </script>
+</body>
+</html>
+
