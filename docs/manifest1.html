@@ -9,7 +9,7 @@
     <h1>Manifest Details</h1>
     <div id="manifestContent"></div>
     <script>
-        fetch('../src/manifests/manifest1.json')
+        fetch('/manifests/manifest1.json')
             .then(response => response.json())
             .then(data => {
                 document.getElementById('manifestContent').innerText = JSON.stringify(data, null, 2);
